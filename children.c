@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 #include <sys/wait.h>
+#include <sys/types.h>  
 
 // Function to check if a number is prime
 int is_prime(int n) {
